@@ -105,11 +105,11 @@
 		$('body, html').animate({scrollTop: pos});
 	});
 
-	
-	
 
-   
-	
+
+
+
+
 
 	$( window ).on( 'load', function() {
 
@@ -184,7 +184,7 @@
 			}
 		});
 
-		
+
 
 
 		/*===================================================================================*/
@@ -193,7 +193,7 @@
 
 		$('[data-ride="tm-slick-carousel"]').each( function() {
 			var $slick_target = false;
-			
+
 			if ( $(this).data( 'slick' ) !== 'undefined' && $(this).find( $(this).data( 'wrap' ) ).length > 0 ) {
 				$slick_target = $(this).find( $(this).data( 'wrap' ) );
 				$slick_target.data( 'slick', $(this).data( 'slick' ) );
@@ -264,7 +264,7 @@
 		});
 
 
-		
+
 
 		/*===================================================================================*/
 		/*  Sticky Header
@@ -413,17 +413,16 @@
 			}
 		});
 
-		
+
 	});
 
 
 
 
 
-	
-		
-	
+
+
+
 
 
 })(jQuery);
-
